@@ -1,7 +1,7 @@
 import { Gauge, Weight, Zap, Timer, ChevronLeft, ChevronRight, Battery, Wrench } from "lucide-react";
 import { useState } from "react";
 import electricKartImage from "@/assets/vehicle-kart.jpg";
-import cvKartImage from "@/assets/product_img.jpeg";
+import cvKartImage from "@/assets/Product_img.jpeg";
 
 const vehicles = [
   {
