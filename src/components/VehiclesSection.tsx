@@ -30,7 +30,7 @@ const vehicles = [
       power: "Low Maintenance",
       braking: "Hydraulic Disc Brake",
     },
-    features: ["Low Maintenance", "Hydraulic Disc Brake", "Remote Kill Switch", "Durable Design"],
+    features: ["Durable Design", "Integrated 6-Speed Gearbox", "Consistent Power Delivery", "Hydraulic Disc Brake"],
   },
 ];
 

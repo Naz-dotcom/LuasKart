@@ -81,31 +81,6 @@ export function HeroSection() {
               Learn More
             </Button>
           </div>
-
-          {/* Stats */}
-          <div className="grid grid-cols-3 gap-6 md:gap-12 animate-fade-up" style={{ animationDelay: "0.4s" }}>
-            <div className="group">
-              <div className="flex items-center gap-2 mb-1">
-                <Trophy className="w-5 h-5 text-accent group-hover:scale-110 transition-transform" />
-                <span className="font-display text-3xl md:text-4xl text-foreground">25+</span>
-              </div>
-              <span className="text-sm text-muted-foreground">Race Victories</span>
-            </div>
-            <div className="group">
-              <div className="flex items-center gap-2 mb-1">
-                <Zap className="w-5 h-5 text-accent group-hover:scale-110 transition-transform" />
-                <span className="font-display text-3xl md:text-4xl text-foreground">180</span>
-              </div>
-              <span className="text-sm text-muted-foreground">Top Speed (km/h)</span>
-            </div>
-            <div className="group">
-              <div className="flex items-center gap-2 mb-1">
-                <Users className="w-5 h-5 text-accent group-hover:scale-110 transition-transform" />
-                <span className="font-display text-3xl md:text-4xl text-foreground">30+</span>
-              </div>
-              <span className="text-sm text-muted-foreground">Team Members</span>
-            </div>
-          </div>
         </div>
       </div>
 

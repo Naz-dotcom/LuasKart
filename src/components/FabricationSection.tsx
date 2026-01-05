@@ -10,32 +10,26 @@ const phases = [
     color: "primary",
   },
   {
-    phase: "Phase 2", 
-    title: "Skeleton",
-    description: "Cut, bend, weld chassis frame for rigidity.",
-    icon: Wrench,
-    color: "accent",
-  },
-  {
-    phase: "Phase 3",
-    title: "Production Team",
+    phase: "Phase 2",
+    title: "Production Stations",
     description: "Multi-station assembly process with specialized teams.",
     icon: Users,
-    color: "primary",
+    color: "accent",
     subStations: [
-      "ST1: Install steering & brakes",
-      "ST2: Build rolling chassis with axle/hubs", 
-      "ST3: Mount powertrain & chain drive",
-      "ST4: Integrate HV battery/controller",
-      "ST5: Wire LV systems, final fit/quality check"
+      "Station 1 (Chassis): Frame fabrication via precision cutting and MIG welding",
+      "Station 2 (Steering): Steering and wheel assembly with alignment checks", 
+      "Station 3 (Brakes): Pedal and line installation with hydraulic system bleeding",
+      "Station 4 (Powertrain): Motor mounting and drivetrain alignment",
+      "Station 5 (Electricals): Integration of HV battery and LV electronics",
+      "Station 6 (Quality Control): Final safety inspection, torque checks, and road testing"
     ]
   },
   {
-    phase: "Phase 4",
+    phase: "Phase 3",
     title: "Batch Logistics", 
     description: "Test, package, ship batches efficiently.",
     icon: Truck,
-    color: "accent",
+    color: "primary",
   },
 ];
 
